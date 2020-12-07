@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from magpie import MagpieModel
+from magpie_mongo import MagpieModel
 from keras.models import load_model
-from magpie.utils import load_from_disk, save_to_disk
+from magpie_mongo.utils import load_from_disk, save_to_disk
 import gensim
 import json
 
